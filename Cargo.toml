@@ -1,17 +1,15 @@
 [package]
 name = "portpicker-cli"
-version = "0.1.2"
+version = "0.2.0"
 edition = "2021"
 repository = "https://github.com/qtfkwk/portpicker-cli"
 license = "MIT"
 description = "Pick a free unused port (CLI)"
 
 [dependencies]
+clap = { version = "4.5.20", features = ["derive", "wrap_help"] }
+clap-cargo = "0.14.1"
 portpicker = "0.1.1"
-
-[dependencies.clap]
-version = "4.5.15"
-features = ["derive", "wrap_help"]
 
 [[bin]]
 name = "portpicker"
