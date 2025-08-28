@@ -18,22 +18,22 @@ Options:
 
 ```text
 $ portpicker -V
-portpicker 0.2.3
+portpicker 0.3.0
 ```
 
 # Examples
 
 ```text
 $ portpicker
-19620
+23557
 ```
 
 ```text
 $ portpicker -n 5
-16491
-16479
-18265
-17661
-21163
+21648
+16295
+16929
+19070
+23835
 ```
 
