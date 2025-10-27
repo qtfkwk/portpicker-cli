@@ -1,6 +1,6 @@
 #![doc = include_str!("../README.md")]
 
-use clap::{builder::Styles, Parser};
+use clap::{Parser, builder::Styles};
 
 const STYLES: Styles = Styles::styled()
     .header(clap_cargo::style::HEADER)
